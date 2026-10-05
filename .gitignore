@@ -1,0 +1,24 @@
+learning-next-steps.txt
+
+# VPN private keys and secrets
+/vpn/client_private.pem
+/vpn/server_private.pem
+/vpn/server_ec_private.key
+/vpn/client_shared_secret.bin
+/vpn/server_shared_secret.bin
+/vpn/pre_master_secret.txt
+/vpn/recovered_pre_master.txt
+
+# Generated crypto exercise output
+/vpn/pre_master_secret.enc
+
+# Compiled binaries and local artifacts
+/vpn/bin/
+/hellogo/hellogo
+.DS_Store
+.idea/
+
+# Local credentials
+.env
+.env.*
+!.env.example
